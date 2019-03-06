@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/RoyalBlue"
+    tools:context=".AddLocation">
+
+    <Spinner
+
+        android:popupBackground="@color/RoyalBlue"
+        android:textColor="@color/snow"
+        android:id="@+id/cat"
+        android:layout_width="214dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/editTextlocaname"
+        android:layout_marginBottom="152dp"
+        android:background="@android:drawable/btn_dropdown"
+        android:spinnerMode="dropdown"
+        android:layout_alignLeft="@+id/editTextlocaname" />
+    <TextView
+        android:textColor="@color/snow"
+        android:id="@+id/textViewlocname"
+        android:layout_width="113dp"
+        android:layout_height="52dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="25dp"
+        android:text="Location Name"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="15dp" />
+
+    <EditText
+        android:id="@+id/editTextlocaname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/editTextlocaltitude"
+        android:layout_alignTop="@+id/textViewlocname"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_alignLeft="@+id/editTextlocaltitude" />
+
+    <TextView
+        android:textColor="@color/snow"
+        android:id="@+id/textViewLocaltitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textViewlocname"
+        android:layout_marginTop="115dp"
+        android:text="Location Altitude"
+        android:layout_alignLeft="@+id/textViewlocname" />
+
+    <EditText
+        android:id="@+id/editTextlocaltitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textViewLocaltitude"
+        android:layout_alignStart="@+id/editTextloclatitude"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_alignLeft="@+id/editTextloclatitude" />
+
+    <TextView
+        android:textColor="@color/snow"
+        android:id="@+id/textViewLoclatitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/textViewlocname"
+        android:layout_marginTop="182dp"
+        android:text="Location Latitude"
+        android:layout_alignLeft="@+id/textViewlocname" />
+
+    <EditText
+        android:id="@+id/editTextloclatitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textViewLoclatitude"
+        android:layout_alignStart="@+id/editTextlocllongitude"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_alignLeft="@+id/editTextlocllongitude" />
+
+    <TextView
+        android:textColor="@color/snow"
+        android:id="@+id/textViewloclongitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textViewlocname"
+        android:layout_centerVertical="true"
+        android:text="Location Longitude"
+        android:layout_alignLeft="@+id/textViewlocname" />
+
+    <EditText
+        android:id="@+id/editTextlocllongitude"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="16dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="16dp" />
+
+    <TextView
+        android:id="@+id/textViewloccat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textViewlocname"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="164dp"
+        android:text="Loction Category"
+        android:textColor="@color/snow"
+        android:layout_alignRight="@+id/textViewlocname" />
+
+
+    <Button
+        android:id="@+id/buttonAddLoc"
+        android:layout_width="155dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/showdata2"
+        android:layout_alignStart="@+id/textViewlocname"
+        android:backgroundTint="@color/snow"
+        android:text="Add Location"
+        android:textColor="@color/RoyalBlue" />
+
+    <Button
+        android:id="@+id/showdata2"
+        android:layout_width="156dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/deletebtn"
+        android:layout_alignStart="@+id/textViewlocname"
+        android:backgroundTint="@color/snow"
+        android:text="Show Registered Locations"
+        android:textColor="@color/RoyalBlue" />
+
+    <Button
+        android:id="@+id/updatebtn"
+        android:layout_width="155dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/showdata2"
+        android:layout_alignStart="@+id/backbtn2"
+        android:backgroundTint="@color/snow"
+        android:text="UPDATE"
+        android:textColor="@color/RoyalBlue" />
+
+    <Button
+        android:id="@+id/backbtn2"
+        android:layout_width="155dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="49dp"
+        android:backgroundTint="@color/snow"
+        android:text="Back"
+        android:textColor="@color/RoyalBlue" />
+
+    <Button
+        android:id="@+id/deletebtn"
+        android:layout_width="157dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/textViewloccat"
+        android:layout_marginStart="-9dp"
+        android:backgroundTint="@color/snow"
+        android:text="Delete"
+        android:textColor="@color/RoyalBlue" />
+
+</android.widget.RelativeLayout>

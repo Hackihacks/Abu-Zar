@@ -1,0 +1,625 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+    android:scrollbarThumbVertical="@android:color/white">
+<FrameLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+
+    >
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/_86786"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/stay" />
+
+
+
+
+
+
+
+
+
+
+    <ImageButton
+        android:id="@+id/RESTURANTS1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="6dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="160dp"
+        android:background="@drawable/abuzar"
+        android:contentDescription="@string/todo4879"
+        app:srcCompat="@drawable/knife" />
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-condensed"
+        android:text="@string/guesthouse12"
+        android:textColor="@android:color/background_light"
+        android:textSize="20sp"
+        android:layout_marginTop="210dp"
+        android:textStyle="normal"
+        />
+
+
+    <ImageButton
+        android:id="@+id/RESTURANTS2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="75dp"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="155dp"
+        android:background="@drawable/abuzar"
+        android:contentDescription="@string/todo"
+        app:srcCompat="@drawable/lodge" />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="210dp"
+        android:contentDescription="@string/_6567"
+        android:fontFamily="sans-serif-condensed"
+        android:text="@string/hostels12"
+        android:textColor="@android:color/background_light"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        android:layout_marginStart="120dp"
+        />
+
+
+
+<ImageView
+    android:id="@+id/imageView11"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="240dp"
+    android:contentDescription="@string/todo1236547"
+    android:scaleType="fitXY"
+    app:srcCompat="@drawable/resturants" />
+
+    <ImageButton
+    android:id="@+id/imageButton7"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="6dp"
+    android:layout_marginTop="395dp"
+    android:background="@drawable/abuzar"
+    android:contentDescription="@string/todo8946514"
+    app:srcCompat="@drawable/breakfast"
+    android:layout_marginStart="6dp" />
+
+    <TextView
+        android:id="@+id/res123"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="445dp"
+        android:contentDescription="@string/_6567"
+        android:fontFamily="sans-serif-condensed"
+        android:text="@string/resturant12"
+        android:textColor="@android:color/background_light"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        android:layout_marginStart="5dp"
+        />
+
+
+
+
+
+
+    <TextView
+        android:id="@+id/textViewStay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:text="@string/stay121"
+        android:textColor="@android:color/background_light"
+        android:textSize="30sp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        />
+
+
+
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="700dp"
+        android:contentDescription="@string/todo5746574"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/health" />
+
+    <TextView
+        android:id="@+id/hospital1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="910dp"
+        android:contentDescription="@string/_6567"
+        android:fontFamily="sans-serif-condensed"
+        android:text="@string/hospitals123"
+        android:textColor="@android:color/background_light"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        android:layout_marginStart="6dp"
+        />
+
+    <ImageButton
+        android:id="@+id/hospital12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="6dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="865dp"
+        android:background="@drawable/abuzar"
+        android:contentDescription="@string/todo4879"
+        app:srcCompat="@drawable/hospital" />
+
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="720dp"
+        android:contentDescription="@string/_0775"
+        android:fontFamily="casual"
+        android:text="@string/health89089"
+        android:textColor="@android:color/background_light"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="casual"
+        android:text="@string/uhkjkhkjhkjlh"
+        android:textColor="@android:color/background_light"
+        android:textSize="30sp"
+        android:layout_marginTop="250dp"
+        android:textStyle="bold"
+        />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1180dp"
+        android:contentDescription="@string/_89078674"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/pray" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1180dp"
+        android:contentDescription="@string/_9890"
+        android:fontFamily="casual"
+        android:text="@string/pray878"
+        android:textColor="@android:color/background_light"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/mosque1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="1340dp"
+        android:background="@drawable/abuzar"
+        android:contentDescription="@string/_1133"
+        app:srcCompat="@drawable/masjid" />
+
+    <ImageButton
+        android:id="@+id/mosque2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-2dp"
+
+        android:layout_marginStart="135dp"
+        android:layout_marginTop="1340dp"
+        android:background="@drawable/abuzar"
+        android:contentDescription="@string/_4567"
+        app:srcCompat="@drawable/church" />
+
+    <TextView
+        android:id="@+id/mosque3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="1400dp"
+        android:contentDescription="@string/_6567"
+        android:fontFamily="sans-serif-condensed"
+        android:text="@string/masjid11"
+        android:textColor="@android:color/background_light"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        android:layout_marginStart="4dp"
+        />
+
+    <TextView
+        android:id="@+id/mosque4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="1400dp"
+        android:contentDescription="@string/_6567"
+        android:fontFamily="sans-serif-condensed"
+        android:text="@string/church11"
+        android:textColor="@android:color/background_light"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        android:layout_marginStart="140dp"
+        />
+
+    <ImageView
+        android:id="@+id/imageView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1420dp"
+        android:contentDescription="@string/_67999"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/education" />
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1420dp"
+        android:contentDescription="@string/_9890"
+        android:fontFamily="casual"
+        android:text="@string/education000"
+        android:textColor="@android:color/background_light"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/school1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="1580dp"
+        android:background="@drawable/abuzar"
+        android:contentDescription="@string/_1133"
+        app:srcCompat="@drawable/school"
+        android:layout_marginLeft="2dp" />
+
+    <ImageButton
+        android:id="@+id/school2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="1580dp"
+        android:background="@drawable/abuzar"
+        android:contentDescription="@string/_4567"
+        app:srcCompat="@drawable/mortarboard"
+        android:layout_marginLeft="0dp" />
+
+    <TextView
+        android:id="@+id/school3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="1635dp"
+        android:contentDescription="@string/_6567"
+        android:fontFamily="sans-serif-condensed"
+        android:text="@string/school11"
+        android:textColor="@android:color/background_light"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        android:layout_marginStart="4dp"
+        />
+
+    <TextView
+        android:id="@+id/school4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="1635dp"
+        android:contentDescription="@string/_6567"
+        android:fontFamily="sans-serif-condensed"
+        android:text="@string/college11"
+        android:textColor="@android:color/background_light"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        android:layout_marginStart="140dp"
+        />
+
+
+    <ImageView
+        android:id="@+id/imageView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1660dp"
+        android:contentDescription="@string/_978674"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/entertianments" />
+
+    <ImageButton
+        android:id="@+id/entertainment1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="6dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="1820dp"
+        android:background="@drawable/abuzar"
+        android:contentDescription="@string/_1133"
+        app:srcCompat="@drawable/fair" />
+
+    <ImageButton
+        android:id="@+id/entertainment2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="6dp"
+        android:layout_marginStart="145dp"
+        android:layout_marginTop="1820dp"
+        android:background="@drawable/abuzar"
+        android:contentDescription="@string/_4567"
+        app:srcCompat="@drawable/fair" />
+
+    <TextView
+        android:id="@+id/entertain3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="1875dp"
+        android:contentDescription="@string/_6567"
+        android:fontFamily="sans-serif-condensed"
+        android:text="@string/parks11"
+        android:textColor="@android:color/background_light"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        android:layout_marginStart="4dp"
+        />
+
+    <TextView
+        android:id="@+id/entertain4"
+        android:layout_width="71dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="85dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="1875dp"
+        android:contentDescription="@string/_6567"
+        android:fontFamily="sans-serif-condensed"
+        android:text="@string/halls11"
+        android:textColor="@android:color/background_light"
+        android:textSize="20sp"
+        android:textStyle="normal" />
+
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1660dp"
+        android:contentDescription="@string/_906756"
+        android:fontFamily="casual"
+        android:text="@string/entertainment7867"
+        android:textColor="@android:color/background_light"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1900dp"
+        android:contentDescription="@string/_90544"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/money" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1900dp"
+        android:contentDescription="@string/_9890"
+        android:fontFamily="casual"
+        android:text="@string/money0087"
+        android:textColor="@android:color/background_light"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/money1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="6dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="2075dp"
+        android:background="@drawable/abuzar"
+        android:contentDescription="@string/_1133"
+        app:srcCompat="@drawable/bank" />
+
+    <ImageButton
+        android:id="@+id/money2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="6dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="2075dp"
+        android:background="@drawable/abuzar"
+        android:contentDescription="@string/_4567"
+        app:srcCompat="@drawable/payment" />
+
+    <TextView
+        android:id="@+id/money3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="2120dp"
+        android:contentDescription="@string/_6567"
+        android:fontFamily="sans-serif-condensed"
+        android:text="@string/banks11"
+        android:textColor="@android:color/background_light"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        android:layout_marginStart="4dp"
+        />
+
+    <TextView
+        android:id="@+id/money4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="2120dp"
+        android:contentDescription="@string/_6567"
+        android:fontFamily="sans-serif-condensed"
+        android:text="@string/easypaisa11"
+        android:textColor="@android:color/background_light"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        android:layout_marginStart="140dp"
+        />
+
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="479dp"
+        android:contentDescription="@string/aksskjskl"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/fuel" />
+
+    <ImageButton
+        android:id="@+id/fuel12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="6dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="650dp"
+        android:background="@drawable/roundcorner"
+        android:contentDescription="@string/todo4879"
+        app:srcCompat="@drawable/fuelicon" />
+
+    <ImageButton
+        android:id="@+id/fuel2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="6dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="650dp"
+        android:background="@drawable/roundcorner"
+        android:contentDescription="@string/todo4879"
+        app:srcCompat="@drawable/fuelicon" />
+
+    <TextView
+        android:id="@+id/text12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="690dp"
+        android:contentDescription="@string/_6567"
+        android:fontFamily="sans-serif-condensed"
+        android:text="@string/cngstation11"
+        android:textColor="@android:color/background_light"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        android:layout_marginStart="135dp"
+        />
+
+
+
+    <TextView
+        android:id="@+id/textView1p"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="490dp"
+        android:contentDescription="@string/_5625"
+        android:fontFamily="casual"
+        android:text="@string/fuel121"
+        android:textColor="@android:color/background_light"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="690dp"
+        android:contentDescription="@string/_6567"
+        android:fontFamily="sans-serif-condensed"
+        android:text="@string/petrolstation1"
+        android:textColor="@android:color/background_light"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        android:layout_marginStart="6dp"
+        />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="940dp"
+        android:contentDescription="@string/_5768"
+        android:scaleType="fitXY"
+        app:srcCompat="@drawable/shoping" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="950dp"
+        android:contentDescription="@string/_9890"
+        android:fontFamily="casual"
+        android:text="@string/shopping78"
+        android:textColor="@android:color/background_light"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/shopping1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-4dp"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="1095dp"
+        android:background="@drawable/abuzar"
+        android:contentDescription="@string/_1133"
+        app:srcCompat="@drawable/newshopping" />
+
+
+
+    <TextView
+        android:id="@+id/shopping3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="1150dp"
+        android:contentDescription="@string/_6567"
+        android:fontFamily="sans-serif-condensed"
+        android:text="@string/shops11"
+        android:textColor="@android:color/background_light"
+        android:textSize="20sp"
+        android:textStyle="normal"
+        android:layout_marginStart="6dp"
+        />
+
+
+
+
+</FrameLayout>
+
+
+
+
+</ScrollView>
+
+
